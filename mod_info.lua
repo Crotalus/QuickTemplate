@@ -1,0 +1,16 @@
+name = "QuickTemplate"
+uid = "959d198b-a3e3-460b-a0aa-7f80da576bcd"
+version = 1
+copyright = ""
+description = "Mod that helps with using templates"
+author = "Crotalus"
+url = ""
+selectable = true
+enabled = true
+exclusive = false
+ui_only = true
+requires = {}
+requiresNames = {}
+conflicts = {}
+before = {}
+after = {}
