@@ -26,6 +26,8 @@ WorldView = Class(oldWorldView)
 							item_id = upgrades_to
 						end
 
+						item_id = Templates.ConvertID(item_id, true)
+
 						if(not table.find(buildableUnits, item_id)) then
 							local templates = Templates.findTemplates(item_id)
 							
